@@ -1,9 +1,9 @@
 
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
-let proxyIP = '';
-let DNS64Server = '';
+let userID = 'd04e5554-56a8-494a-b538-8acba6f644b0';
+let proxyIP = 'bpb.yousef.isegaro.com';
+let DNS64Server = '[2602:fc59:b0:64::],[2a02:898:146:64::],[2602:fc59:11:64::]';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
 let subConfig = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvY29uZmlnL0FDTDRTU1JfT25saW5lX01pbmlfTXVsdGlNb2RlLmluaQ==');
@@ -4568,3 +4568,4 @@ async function nginx() {
 	`
     return text;
 }
+
